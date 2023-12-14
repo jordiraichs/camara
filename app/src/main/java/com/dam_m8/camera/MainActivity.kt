@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // creem la variable
         val btnCamara = findViewById<Button>(R.id.btCamara)
 
         btnCamara.setOnClickListener {
